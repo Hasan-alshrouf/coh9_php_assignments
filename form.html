@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration</title>
+</head>
+
+<body>
+    <h1><i>Student Registration</i> </h1>
+
+    <form action="" method="get">
+        <div>
+            <label for="user">Username</label>
+            <input id="user" required type="text" placeholder="Username" name="user" value="">
+        </div>
+        <br>
+        <div>
+            <label for="EM">Email</label>
+            <input id="EM" required type="email" name="mail">
+        </div>
+
+        <br>
+        <div>
+            <label for="n">Mobile Number</label>
+            <input id="n" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+        <br>
+        <div>
+            <p>Gender :</p>
+            <input id="male" type="radio" name="M" value="male">
+            <label for="male">Male</label>
+        </div>
+
+        <div>
+            <input id="female" type="radio" name="M" value="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            <label for="color"> Favorite Color :</label>
+            <input id="color" type="color" name="color" value="color">
+
+        </div>
+        <br>
+        <div>
+            <label for="date">Date Of Birth :</label>
+            <input id="date" type="date" name="date" value="date">
+
+        </div>
+        <br>
+        <label for="city">Choose City :</label>
+        <select name="city" id="city">
+
+            <option value="1">Amman</option>
+            <option value="2">Zarqa</option>
+            <option value="3">Irbid</option>
+            <option value="4">Aqaba </option>
+        </select>
+        <br>
+
+        <br>
+        <label for="Q">Qualification</label>
+        <select name="Q" id="Q">
+
+            <option value="5">Associate Degree</option>
+            <option value="6">Bachelor’s Degree</option>
+            <option value="7">Master’s Degree</option>
+            <option value="8">Doctoral Degree </option>
+        </select>
+
+
+        <br>
+
+
+        <div>
+            <p>Skills :</p>
+            <input id="1" type="checkbox" name="o" value="w">
+            <label for="1">Html</label>
+        </div>
+        <div>
+            <input id="2" type="checkbox" name="o" value="l">
+            <label for="2">CSS</label>
+        </div>
+        <div>
+            <input id="3" type="checkbox" name="o" value="m">
+            <label for="3">PHP</label>
+        </div>
+        <br>
+        <div>
+            <label for="i">I agree that I want to receive emails from you.</label>
+            <input id="i" type="checkbox" name="oo" value="mo">
+
+        </div>
+
+        <br>
+        <div>
+            <label><i>Upload CV</i></label>
+            <input type="file">
+        </div>
+
+        <br>
+
+        <div>
+            <button type="submit"> Submit </button>
+            <input type="reset">
+
+        </div>
+
+    </form>
+
+    <hr>
+
+    <table border="2">
+        <caption>Some information</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Date Of Birth</th>
+                <th>Choose City</th>
+                <th>Qualification </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hasan </td>
+                <td>Male</td>
+                <td>4/11</td>
+                <td>Zarqa</td>
+                <td>Bachelor’s Degree</td>
+            </tr>
+            <tr>
+                <td>Ali </td>
+                <td>Male</td>
+                <td>8/3</td>
+                <td>Amman</td>
+                <td>Bachelor’s Degree</td>
+            </tr>
+            <tr>
+                <td>Noor</td>
+                <td>Female</td>
+                <td>9/9</td>
+                <td>Irbid</td>
+                <td>Bachelor’s Degree</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>
