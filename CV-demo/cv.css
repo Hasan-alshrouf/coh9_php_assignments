@@ -1,0 +1,141 @@
+body {
+    margin: 4px auto;
+    width: 56vw;
+    background-image: url(imgs/XiCvTnp.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    color: aliceblue;
+    background-color: lightslategrey;
+}
+
+h1 {
+
+    text-align: center;
+    margin: 25px 10px;
+    letter-spacing: 5px;
+
+    background-color: lightslategray;
+    border: 5px outset rgba(1, 1, 73, 0.8);
+    color: rgb(1, 1, 73);
+
+
+}
+
+h1::first-letter {
+    font-size: 200%;
+    color: rgb(1, 1, 73);
+}
+
+#img {
+    border-radius: 60%;
+    height: 25rem;
+    border: inset;
+    border-color: black;
+}
+
+
+
+#id1 {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#name {
+    font-family: serif;
+    font-size: xx-large;
+}
+
+#web {
+    font-size: large;
+    direction: rtl;
+}
+
+.navv {
+    list-style: none;
+    display: flex;
+    margin: 4%;
+    justify-content: space-around;
+}
+
+ul li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    font-size: 28px;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    font-family: cursive;
+}
+
+#p1 {
+    text-align: center;
+
+}
+
+#exp {
+
+    display: flex;
+    justify-content: space-around;
+    margin-block-start: 3em;
+    margin-block-end: 3em;
+    font-size: 2vw;
+
+
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+}
+
+ol li {
+    margin-block-start: -2em;
+    margin-block-end: 1em;
+    margin-right: -1em;
+}
+
+main {
+    margin: 4rem;
+}
+
+.skills {
+    font-size: 1.5rem;
+
+}
+
+#skills-section {
+    display: flex;
+}
+
+#skills-section ul {
+    margin: 1.1rem;
+    padding: 0.9rem;
+    list-style: circle;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightslategray;
+    padding: 0.1rem 0.9rem;
+    border: 5px outset rgba(1, 1, 73, 0.8);
+    color: rgb(1, 1, 73);
+
+}
+
+footer * {
+    color: rgb(1, 1, 73);
+
+}
