@@ -7,6 +7,9 @@
     <title>
         Hasan alshrouf CV
     </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="cv.css">
     <style>
 
@@ -26,8 +29,8 @@
 
 
         </div>
-        <nav>
-            <ul class="navv">
+        <nav id="navv">
+            <ul>
                 <li><a href="hasanalshrouf3@gmail.com" target="_blank " title=""> Email </a></li>
                 <li><a href="https://github.com/hasan-shrouf" target="_blank " title=""> Github </a></li>
                 <li><a href="hasanalshrouf3@gmail.com" target="_blank " title=""> facebook </a></li>
@@ -37,15 +40,15 @@
     </header>
 
 
-    <hr>
+
 
     <main>
         <!--my profile section -->
-        <section>
+        <section id="profile-section">
 
-            <h3 id="profile">Profile</h3>
+            <h3 class="profile">Profile</h3>
             <article>
-                <p id="p1">I am a highly qualified IT specialist with a Bachelor's degree from Yarmouk University in
+                <p>I am a highly qualified IT specialist with a Bachelor's degree from Yarmouk University in
                     computer
                     science
                     majors and I have a proven track record in web and network design and database management. I have
@@ -82,30 +85,34 @@
 
 
         <!--my Skills section-->
-        <section id="skills-section">
-            <h3 class="skills">Skills:</h3>
-            <ul>
-                <li>Html</li>
-                <li>CSS</li>
-                <li>java</li>
-                <li>Php</li>
-            </ul>
-        </section>
+        <div id="section-and">
+            <section id="skills">
+                <h3>Skills:</h3>
+                <ul>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>java</li>
+                    <li>Php</li>
+                </ul>
+            </section>
 
 
-        <!--my Education section-->
-        <section>
+            <!--my Education section-->
+            <section>
 
-            <p>
-            <h3 class="skills">Education :</h3> Yarmouk University</p>
-            <p>2018_2020</p>
 
-        </section>
+                <h3 class="profile">Education:</h3>
+                <p> Yarmouk University</p>
+                <p>2018_2020</p>
+
+            </section>
+        </div>
 
     </main>
 
     <footer>
         <p>Date : <time datetime="2020-10-9">9th of Oct ,2022</time></p>
+
         <address>
 
             <a href="tel:+878090099">8798098089 </a>
