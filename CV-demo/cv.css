@@ -7,12 +7,13 @@ body {
     background-size: cover;
     color: aliceblue;
     background-color: lightslategrey;
+    border: 5px outset rgba(1, 1, 73, 0.8);
 }
 
 h1 {
 
     text-align: center;
-    margin: 25px 10px;
+    margin: 25px 18px;
     letter-spacing: 5px;
 
     background-color: lightslategray;
@@ -31,7 +32,7 @@ h1::first-letter {
     border-radius: 60%;
     height: 25rem;
     border: inset;
-    border-color: black;
+    border-color: lightslategray
 }
 
 
@@ -52,75 +53,80 @@ h1::first-letter {
 #web {
     font-size: large;
     direction: rtl;
+    font-family: 'Courgette', cursive;
 }
 
-.navv {
+#navv ul {
     list-style: none;
     display: flex;
     margin: 4%;
     justify-content: space-around;
 }
 
-ul li a {
+#navv ul li a {
     font-size: 24px;
     text-decoration: none;
     color: black
 }
 
-a:hover {
+#navv ul li a:hover {
     font-size: 28px;
 }
 
-#profile {
-    display: flex;
-    justify-content: center;
-    font-size: 2vw;
+
+#profile-section {
+    text-align: center;
+}
+
+.profile {
+    font-size: 1.8vw;
     font-family: cursive;
 }
 
-#p1 {
-    text-align: center;
 
-}
 
 #exp {
 
-    display: flex;
-    justify-content: space-around;
-    margin-block-start: 3em;
-    margin-block-end: 3em;
+    text-align: center;
+    margin-block-start: 2em;
+    margin-block-end: 1.2em;
     font-size: 2vw;
 
 
 }
 
-ol {
-    display: flex;
-    flex-direction: row;
-}
 
-ol li {
-    margin-block-start: -2em;
-    margin-block-end: 1em;
-    margin-right: -1em;
+
+li {
+    font-size: 1.4rem;
+    font-family: 'Courgette', cursive;
+
 }
 
 main {
     margin: 4rem;
+    border-top: groove;
+    border-color: lightslategray;
 }
 
-.skills {
+#section-and {
+    display: flex;
+    margin-block: 2rem;
+    justify-content: space-around;
+}
+
+
+#skills {
+
+    display: flex;
+    align-items: baseline;
     font-size: 1.5rem;
 
 }
 
-#skills-section {
-    display: flex;
-}
 
-#skills-section ul {
-    margin: 1.1rem;
-    padding: 0.9rem;
+#section-and ul {
+
     list-style: circle;
 }
 
@@ -129,9 +135,10 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: lightslategray;
-    padding: 0.1rem 0.9rem;
+    padding: 0.1rem 3rem;
     border: 5px outset rgba(1, 1, 73, 0.8);
     color: rgb(1, 1, 73);
+    margin: 25px 18px;
 
 }
 
