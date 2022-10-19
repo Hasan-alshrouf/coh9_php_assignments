@@ -146,3 +146,61 @@ footer * {
     color: rgb(1, 1, 73);
 
 }
+
+@media only screen and (max-width: 800px) {
+    #img {
+        border-radius: 60%;
+        height: 180px;
+        width: 140px;
+
+    }
+
+    #id1 {
+        flex-direction: column;
+    }
+
+    #navv ul li a {
+        font-size: 20px;
+
+    }
+
+    #navv ul li a:hover {
+        font-size: 22px;
+    }
+
+    main {
+        margin: 2rem;
+
+    }
+
+    li {
+        font-size: 1rem;
+        ;
+
+    }
+
+
+
+    #section-and {
+        flex-direction: column;
+        margin-block: 1rem;
+
+    }
+
+    #skills {
+
+
+        font-size: 1rem;
+
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 0rem 3rem;
+
+        margin: 20px 12px;
+
+    }
+
+
+}
