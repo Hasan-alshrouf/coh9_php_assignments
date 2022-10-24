@@ -1,0 +1,15 @@
+#Ebook-hero {
+    height: 60vh;
+
+}
+
+.container .row .col-4 {
+    width: 26rem;
+    height: 4rem;
+    margin: -20rem 35rem;
+    background-color: rgb(59, 153, 153)
+}
+
+.container .row h3 {
+    margin: -25rem 35rem;
+}
