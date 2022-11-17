@@ -1,0 +1,170 @@
+.all_item {
+    margin: 4px auto;
+    width: 56vw;
+    background-image: url(./img/XiCvTnp.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    color: aliceblue;
+    background-color: lightslategrey;
+    border: 5px outset rgba(1, 1, 73, 0.8);
+    margin-bottom: 10rem;
+}
+
+body {
+
+    background-color: slategrey;
+}
+
+
+
+h1 {
+
+
+
+
+    color: rgb(1, 1, 73);
+    margin-bottom: 5rem;
+
+}
+
+
+
+#img {
+    margin-top: 3rem;
+    border-radius: 60%;
+    height: 22rem;
+    border: inset;
+    border-color: lightslategray
+}
+
+
+
+#id1 {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#name {
+    font-family: serif;
+    font-size: xx-large;
+}
+
+#web {
+    font-size: large;
+    direction: rtl;
+    font-family: 'Courgette', cursive;
+}
+
+#navv ul {
+    list-style: none;
+    display: flex;
+    margin: 4%;
+    justify-content: space-around;
+}
+
+#navv ul li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black
+}
+
+#navv ul li a:hover {
+    font-size: 28px;
+}
+
+
+#profile-section {
+    text-align: center;
+}
+
+.profile {
+    font-size: 1.8vw;
+    font-family: cursive;
+}
+
+
+
+#exp {
+
+    text-align: center;
+    margin-block-start: 2em;
+    margin-block-end: 1.2em;
+    font-size: 2vw;
+
+
+}
+
+
+
+#navv li {
+    font-size: 1.4rem;
+    font-family: 'Courgette', cursive;
+
+}
+
+main {
+    margin: 4rem;
+    border-top: groove;
+    border-color: lightslategray;
+}
+
+#section-and {
+    display: flex;
+    margin-block: 2rem;
+    justify-content: space-around;
+}
+
+
+#skills {
+
+    display: flex;
+    align-items: baseline;
+    font-size: 1.5rem;
+
+}
+
+
+#section-and ul {
+
+    list-style: circle;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightslategray;
+    padding: 0.1rem 3rem;
+    border: 5px outset rgba(1, 1, 73, 0.8);
+    color: rgb(1, 1, 73);
+    margin: 25px 18px;
+
+}
+
+footer * {
+    color: rgb(1, 1, 73);
+
+}
+
+#test {
+    height: 100rem;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.img {
+    width: 24rem;
+}
+
+.imginput {
+    height: 2rem;
+
+}
